@@ -37,27 +37,30 @@
 }
 
 .res-icon nav ul {
-    margin-top: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
     position: fixed;
     left: 0;
     top: 0;
     height: 100%;
     width: 30%;
     background-color: white;
-    border-right: 1px solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex;
     flex-direction: column;
-    transition: all 250ms ease-out;
-    -webkit-transition: all 250ms ease-out;
-    -moz-transition: all 250ms ease-out;
-    -ms-transition: all 250ms ease-out;
-    -o-transition: all 250ms ease-out;
-    z-index: 100;
+    gap: 0;
+    transition:  900ms;
+    -webkit-transition:  900ms;
+    -moz-transition:  900ms;
+    -ms-transition:  900ms;
+    -o-transition:  900ms;
     transform: translateX(-300px);
     -webkit-transform: translateX(-300px);
     -moz-transform: translateX(-300px);
     -ms-transform: translateX(-300px);
     -o-transform: translateX(-300px);
+    z-index: 100;
 }
 
 #menu-ham-button:checked+label+nav ul {

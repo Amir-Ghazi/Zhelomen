@@ -2,8 +2,8 @@ document.body, addEventListener("load", function () {
     this.window.scrollTo(0,700);
 })
 
-const button = document.getElementById('about');
 const articleButton = document.getElementById("arBtn")
+const button = document.getElementById('about');
 const baseURL = window.location.href;
 const fileURL = baseURL + '../index.html';
 

@@ -1,0 +1,138 @@
+main {
+    width: 95%;
+    margin: 50px auto;
+}
+.link {
+    width: 95%;
+    box-shadow: 0 0 5px var(--purple);
+    margin: 50px auto;
+    padding:20px ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.link:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 0 0 5px var(--orange);
+}
+link:hover a{
+    color: var(--orange) ;
+}
+.list li {
+    margin: 10px 20px;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.link h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+hr{
+    margin: 10px;
+}
+.text img {
+    width: 3%;
+    position: relative;
+    top: 10px;
+}
+
+.text h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin: auto;
+}
+
+.dec p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.dec h1 {
+    font-size: 35px;
+    margin: 30px 0 20px;
+}
+
+.dec ul li {
+    margin: 10px 50px;
+}
+
+.dec span {
+    color: var(--orange);
+}
+
+.purple li span {
+    color: var(--purple);
+}
+
+.dec h2 {
+    font-size: 25px;
+    margin: 30px 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0 20px;
+}
+
+.summry {
+    padding: 5px 40px;
+    width: 95%;
+    box-shadow: 0 0 5px var(--purple);
+    margin: 50px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.summry:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 0 0 5px var(--orange);
+}
+
+.summry h4 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.summry p {
+    padding: 15px;
+}
+.summry h2 {
+    color: purple;
+    font-size: 25px;
+}
+.summry span{
+    color: orange;
+}

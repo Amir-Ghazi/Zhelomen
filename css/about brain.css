@@ -1,0 +1,19 @@
+ol li{
+    font-size: 30px;
+    color:purple;
+    margin: 30px;
+}
+.dec img{
+    width: 80%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+}
+
+.ul-display li{
+    display: inline;
+    list-style: circle;
+    margin: 10px;
+}
+

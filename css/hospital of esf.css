@@ -1,0 +1,33 @@
+main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+main h1{
+    font-size: 40px;
+    margin: 50px;
+}
+table{
+    width: 100%;
+    border: transparent;
+   
+}
+table tr td, th{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+table th{
+    background-color: purple;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: rgba(249, 175, 37, 0.762);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 232, 255);
+}

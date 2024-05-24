@@ -4,8 +4,7 @@ document.body, addEventListener("load", function () {
 
 const articleButton = document.getElementById("arBtn")
 const button = document.getElementById('about');
-const baseURL = window.location.href;
-const fileURL = baseURL + '../index.html';
+const fileURL = 'https://Amir-Gh.github.io/Zhelomen/gh-pages/index.html';
 
 button.addEventListener('click', function () {
   const newWindow = window.open(fileURL);

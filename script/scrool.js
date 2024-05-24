@@ -4,18 +4,19 @@ document.body, addEventListener("load", function () {
 
 const button = document.getElementById('about');
 const articleButton = document.getElementById("arBtn")
-const fileURL = 'https://Amir-Ghazi.github.io/Zhelomen-/index.html';
+const baseURL = window.location.href;
+const fileURL = baseURL + '../index.html';
 
 button.addEventListener('click', function () {
-    const newWindow = window.open(fileURL);
-    newWindow.addEventListener('load', function () {
-        this.window.scrollTo(0,1300);
-    });
+  const newWindow = window.open(fileURL);
+  newWindow.addEventListener('load', function () {
+    this.window.scrollTo(0, 1300);
+  });
 });
 
 articleButton.addEventListener('click', function () {
     const newWindow = window.open(fileURL);
-    newWindow.addEventListener('load', function () {
-        this.window.scrollTo(0,700);
+  newWindow.addEventListener('load', function () {
+    this.window.scrollTo(0, 700);
     });
 });

@@ -17,6 +17,15 @@
 }
 
 @media (max-width:862px) {
+    .text-area p {
+        font-size: 10px;
+    }
+
+    .text-area {
+        padding: 15px;
+
+    }
+
     section {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -96,19 +105,37 @@
 
 @media (max-width:611px) {
     .res-icon nav ul {
-        width: 50%;
+        width: 40%;
+    }
+}
+
+@media (max-width:459px) {
+    .container {
+        left:200px ;
+}
+    .text-area p{
+        font-size: 12px;
     }
 }
 
 @media (max-width:445px) {
+    .container {
+        left:50% ;
+    }   
+    .res-icon nav ul {
+        width: 50%;
+    }
 
-    td,th {
+    td,
+    th {
         font-size: 10px;
     }
-    main > h1{
+
+    main>h1 {
         font-size: 30px;
     }
 }
+
 @media (max-width:435px) {
     .res-icon label img:last-child {
         margin-right: 20%;
